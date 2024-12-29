@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class MadLib {
     public static void main(String[] args) {
-        // Create scanner object for user input
         Scanner scanner = new Scanner(System.in);
         
         // Original story with placeholders
@@ -32,7 +31,7 @@ public class MadLib {
 
         System.out.print("Please enter a number: ");
         int firNum = scanner.nextInt();
-        scanner.nextLine(); //buffer thingy
+        scanner.nextLine(); //buffer to prevent an overlap
 
         System.out.print("Please enter another noun: ");
         String secNoun = scanner.nextLine();

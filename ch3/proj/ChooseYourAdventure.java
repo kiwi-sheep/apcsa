@@ -25,7 +25,7 @@ package ch3.proj; // feel free to delete (directory thing, package is a folder)
  | Deficiencies:  No unsatisfied requirements and no logic errors.
  *===========================================================================*/
 
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class ChooseYourAdventure {
   public static void main(String[] args) {

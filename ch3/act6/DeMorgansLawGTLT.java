@@ -17,12 +17,12 @@ public class DeMorgansLawGTLT
       System.out.println("Both x and y are not negative");
     }
     
-    /* your code here */ 
-
-
-
-
-
-
+    // De Morgan's Law equivalent: !(A || B) = !A && !B
+    // In this case: !(x < 0 || y < 0) = !(x < 0) && !(y < 0)
+    if (x >= 0 && y >= 0) {  // Short-circuit: if (x < 0),then y isn't evaluated
+      System.out.println("Both x and y are not negative");
+    } else {
+      System.out.println("at least one number is negative");
+    }
   }
 }

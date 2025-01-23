@@ -31,7 +31,7 @@ public class MadLib {
 
         System.out.print("Please enter a number: ");
         int firNum = scanner.nextInt();
-        scanner.nextLine(); //buffer to prevent an overlap
+        scanner.nextLine(); //Buffer to prevent a weird overlap
 
         System.out.print("Please enter another noun: ");
         String secNoun = scanner.nextLine();
@@ -39,7 +39,7 @@ public class MadLib {
         System.out.print("Please enter yet another adjective: ");
         String thrAdj = scanner.nextLine();
 
-        // Replace placeholders with user input
+        // Replace ALL placeholders with user input
         String completedStory = madLibStory.replace("[ADJECTIVE1]", firAdj);
         completedStory = completedStory.replace("[VERB1]", firVerb);
         completedStory = completedStory.replace("[VERB2]", secVerb);

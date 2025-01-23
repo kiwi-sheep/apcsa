@@ -3,11 +3,11 @@ In DeMorgansLaw.java, add the code to validate the first part of De Morgan’s L
  - Show output to confirm the results.
  - Test for all possible values of a and b (true | true, true | false, false | true, false | false).
 
-
-Continuing in DeMorgansLaw, add the code to validate the second part of De Morgan’s Laws: not (a or b) is the same as (not a) and (not b).
+Continuing in DeMorgansLaw.java, add the code to validate the second part of De Morgan’s Laws: not (a or b) is the same as (not a) and (not b).
  - Use two if/else statements, one for each expression.
  - Show output to confirm the results.
  - Test for all possible values of a and b (true | true, true | false, false | true, false | false).
+
 
 
 In DeMorgansLawIf.java, reproduce the compound Boolean expressions provided in the code without using logical operators. Instead, use nested if/else statements to duplicate their logic. Note there are two sections to modify, one to reproduce !(a && b) and one to reproduce !(a || b).

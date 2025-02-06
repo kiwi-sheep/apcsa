@@ -2,7 +2,7 @@ package ch2.u5; // feel free to delete (directory thing, package is a folder(?))
 
 import java.util.Scanner;
 
-public class InterestFormula {
+public final class InterestFormula {
     public static void main(String[] args) {
         
         Scanner scanner = new Scanner(System.in);
@@ -26,7 +26,7 @@ public class InterestFormula {
         double temp;
         for (int i = 1; i <= varN; i++) {
             temp = Math.pow((1 + varR / 100), i);
-            System.out.printf("%d\t \t %.2f\n", i, varPV * temp);
+            System.out.printf("%d\t \t %.2f\n", i, varPV * temp); // Printf is used to print in two decimal places, rather than ~10 
         }
     }
 }

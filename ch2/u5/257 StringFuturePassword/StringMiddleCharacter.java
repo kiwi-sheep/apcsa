@@ -1,4 +1,4 @@
-package ch2.u5; // feel free to delete (directory thing, package is a folder(?))
+// Assignment Name: 'Activity 2.5.7 String/Future/Password'
 
 import java.util.Scanner;
 

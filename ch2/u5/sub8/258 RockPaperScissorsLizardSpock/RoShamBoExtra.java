@@ -31,6 +31,7 @@ public class RoShamBoExtra { // 'Main' class
     public static String getUserChoice() {
         Scanner input = new Scanner(System.in);
 
+
         System.out.println("Enter your choice (rock/paper/scissors/lizard/spock) or 'quit' to end: ");
         String userChoice = input.nextLine();
         userChoice = userChoice.toLowerCase(); // I'm too used to adding capital letters at the start of my typing

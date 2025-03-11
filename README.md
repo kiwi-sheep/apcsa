@@ -23,5 +23,4 @@ These are _most_ of the files from assignments and projects in my APCSA course.
 
 - assignments are in corresponding sub (assignment DeMorgansLaw = _ch1\u3\sub6\DMLaws_)  
 
-Projects will be located in (project MadLibs = _ch1\u2\projMadLibs_)
-  unit folders as: "*proj[Name]*"
+Projects will be located in unit folders as: "*proj[Name]*" (e.g. project MadLibs = _ch1\u2\projMadLibs_)

@@ -1,7 +1,7 @@
 # AP Computer Science A Course RoadMap
 These are _most_ of the files from assignments and projects in my APCSA course.
 
-*In the AP CSA course, every x amount of units are organized into chapters.*
+*The APCSA course has all units divided into chapters.*
 ## Class's Organization System (2024-25)
 1. Chapter 1:  
      - Unit 1, 2, & 3  

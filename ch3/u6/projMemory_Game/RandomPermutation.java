@@ -1,6 +1,6 @@
 // Assignment Name: 'Project 3.6.5 Memory Game'
-import java.util.Random;
 import java.util.ArrayList;
+import java.util.Random;
 
 public class RandomPermutation {
 	public static void main(String[] args) {
@@ -19,6 +19,7 @@ public class RandomPermutation {
 		System.out.println(r);
 	}
 	public static void next(int[] arr, int length) { // The funny ain't ready yet, come back later :(
+	
 		ArrayList<Integer> temp = new ArrayList<Integer>(); // ourArray
 		Random rand = new Random();
 		int[] r = new int[length];

@@ -11,7 +11,7 @@ These are _most_ of the files from assignments and projects in my APCSA course.
      - Unit 6, 7, & 8  
 4. Chapter 4:  
      - Unit 9 & 10  
-5. **Final Project**
+5. **Final Project: White Tower Project**
 
 
 ## Formatting for Repository
